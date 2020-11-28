@@ -1,0 +1,24 @@
+{
+  "name": "flow-to-ts-lab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@keik/generate-flow-types-from-ts-package": "^0.0.8",
+    "@types/react": "^17.0.0",
+    "dts-bundle": "^0.7.3",
+    "flow-bin": "0.110.0",
+    "flowgen": "^1.12.1",
+    "prettier": "^2.2.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "workspaces": [
+    "./packages/*"
+  ],
+  "private": true
+}
