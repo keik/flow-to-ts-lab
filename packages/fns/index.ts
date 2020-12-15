@@ -5,6 +5,7 @@
 // import  * as C2 from "./src/fns1";
 // export { C2 };
 
+// ** IMPORT TYPES IN ENTRYPOINT FILE to avoid invalid libdef (import type instead of $Exports<...>) **
 import type { T0B, T2C } from "types";
 
 // ** DO THIS for aggregate re-export **
