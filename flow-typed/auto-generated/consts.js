@@ -7,7 +7,6 @@ declare module "consts" {
   declare export var C0A: 1;
   declare export var C0B: {
     +foo: "bar",
-    ...
   };
   declare export { C1A, C1B } from "consts/src/consts1";
 
@@ -15,9 +14,7 @@ declare module "consts" {
     A: 1,
     B: {
       +foo: "bar",
-      ...
     },
-    ...
   };
   declare export { C2 };
 }
@@ -26,6 +23,5 @@ declare module "consts/src/consts1" {
   declare export var C1A: 1;
   declare export var C1B: {
     +foo: "bar",
-    ...
   };
 }

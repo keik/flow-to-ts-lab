@@ -29,3 +29,7 @@ import type {
 const leneb: CONST1KEYT = "foo";
 ({ foo: "bar" } as CONST2T);
 const elkjw: CONST2KEYT = "foo";
+
+import { Fns1 } from "fns";
+
+Fns1.f1b;

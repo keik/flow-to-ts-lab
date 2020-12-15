@@ -25,7 +25,7 @@ export type { T1A, T1B } from "./src/types1";
 // export { T2 };
 
 // ** DO THIS for type re-export (give up aggregate re-export) **
-export type { A as T2A, B as T2B } from "./src/types2";
+export type { A as T2A, B as T2B, C as T2C } from "./src/types2";
 
 //////////////// computed type (local) ////////////////
 

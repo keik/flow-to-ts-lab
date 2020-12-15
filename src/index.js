@@ -41,3 +41,9 @@ import {
   type C2BType,
   type C2BKEYType,
 } from "types";
+
+import { Fns1 } from "fns";
+
+Fns1.f1a();
+Fns1.f1b().foo;
+Fns1.f1c().foo.union;

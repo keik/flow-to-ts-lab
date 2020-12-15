@@ -23,15 +23,16 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@keik/generate-flow-types-from-ts-package@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@keik/generate-flow-types-from-ts-package/-/generate-flow-types-from-ts-package-0.0.8.tgz#2f103c5a23b0c48b4d73bd09eafd61ebe1579489"
-  integrity sha512-EQ9FoImopBWtj0yNQRM4FrbGf3bT9FYdWTQZ9y+3MPu9wqJ/juKHGhHe8qNFUm0PJpQx7xR0zYMfr9WReciY8g==
+"@keik/generate-flow-types-from-ts-package@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@keik/generate-flow-types-from-ts-package/-/generate-flow-types-from-ts-package-0.0.10.tgz#9e58a425eb61e6f44e5da5a81736149b7e81c3fd"
+  integrity sha512-2adRdpEmS1Dcra78HCrKbU5KiDmIxq6Nk4I26iVhJgiNYfuP9MYG4Mwx7X2I4+FuHsT1pi/ekvFmzwXhWNAAdw==
   dependencies:
     chalk "4.1.0"
     dts-bundle "0.7.3"
     enhanced-resolve "5.3.1"
     flowgen "1.12.1"
+    rimraf "3.0.2"
     yargs "16.1.0"
 
 "@types/detect-indent@0.1.30":
@@ -289,7 +290,7 @@ glob@^6.0.4:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-glob@^7.0.0:
+glob@^7.0.0, glob@^7.1.3:
   version "7.1.6"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
   integrity sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==
@@ -457,6 +458,13 @@ resolve@^1.1.6:
   dependencies:
     is-core-module "^2.1.0"
     path-parse "^1.0.6"
+
+rimraf@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-3.0.2.tgz#f1a5402ba6220ad52cc1282bac1ae3aa49fd061a"
+  integrity sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==
+  dependencies:
+    glob "^7.1.3"
 
 scheduler@^0.20.1:
   version "0.20.1"
